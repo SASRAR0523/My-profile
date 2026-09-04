@@ -641,14 +641,20 @@ transform:translateY(0);
     transform:translateY(-12px);
     box-shadow:0 20px 45px rgba(37,99,235,.22);
 }
-
+/* 
 .project-card img{
      order: 2;
     width: 120px;
     height: 100px;
     object-fit: cover;
-    border-radius: 12px;}
+    border-radius: 50px;} */
 
+.project-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 .project-card h3{
     color:#2563EB;
